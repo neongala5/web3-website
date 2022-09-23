@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import JumbotronStuff from './components/JumbotronStuff';
+import MiddleStuff from './components/MiddleStuff';
+import FooterStuff from './components/FooterStuff';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          Make the web3 security website here.
-      </header>
+    <div>
+      <JumbotronStuff></JumbotronStuff>
+      <MiddleStuff></MiddleStuff>
+      <FooterStuff></FooterStuff>
     </div>
   );
 }
