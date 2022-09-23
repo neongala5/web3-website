@@ -1,3 +1,13 @@
+# To visit our live website:
+
+Open [https://neongala5.github.io/web3-website/]
+
+# To publish to our live website use: 
+
+### `npm run deploy`
+
+This will update what we have up and running live. It takes quite a long time to do so, so give it a minute.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
