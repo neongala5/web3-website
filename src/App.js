@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import JumbotronStuff from './components/JumbotronStuff';
 import MiddleStuff from './components/MiddleStuff';
 import FooterStuff from './components/FooterStuff';
