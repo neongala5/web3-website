@@ -43,7 +43,11 @@
       "last 1 safari version"
     ]
   },
+  "overrides": {
+    "@svgr/webpack": "$@svgr/webpack"
+  },
   "devDependencies": {
+    "@svgr/webpack": "^6.2.1",
     "gh-pages": "^4.0.0"
   }
 }
