@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import JumbotronStuff from './components/JumbotronStuff';
 import MiddleStuff from './components/MiddleStuff';
-import FooterStuff from './components/FooterStuff';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Navbar></Navbar>
 	    <JumbotronStuff></JumbotronStuff>
       <MiddleStuff></MiddleStuff>
-      <FooterStuff></FooterStuff>
+      <Footer></Footer>
     </div>
   );
 }

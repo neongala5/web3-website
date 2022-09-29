@@ -1,0 +1,17 @@
+.main-footer {
+    color: white;
+    background-color: #1F364E;
+    padding-top: 3em;
+    position: relative;
+    width: 100%;
+}
+
+.copyright {
+    background-color: #0A253C;
+    width: 100%;
+    text-align: center;
+}
+
+.copyrightSymbol {
+    color: black;
+}
