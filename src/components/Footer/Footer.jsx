@@ -27,7 +27,7 @@ export default function Footer() {
                   <span> Twitter</span>
                 </Col>
                 <Col>
-                  <img class="align-baseline" alt="" src={mediumIcon} width="15" height="15" />
+                  <img className="align-baseline" alt="" src={mediumIcon} width="15" height="15" />
                   <span> Medium</span>
                 </Col>
               </Row>

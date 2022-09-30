@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import JumbotronStuff from './components/JumbotronStuff';
 import MiddleStuff from './components/MiddleStuff';
 import Footer from './components/Footer/Footer';
+import Partners from './components/partners/Partners';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar></Navbar>
 	    <JumbotronStuff></JumbotronStuff>
       <MiddleStuff></MiddleStuff>
+      <Partners></Partners>
       <Footer></Footer>
     </div>
   );
