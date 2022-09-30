@@ -1,0 +1,17 @@
+.header {
+    font-weight: bold;
+    color: #1F364E;
+}
+
+.logoContainer {
+    height: 4em;
+
+    border-radius: 10px;
+}
+
+.partnerLogos {
+    margin: 0;
+    height: 5em;
+    margin: 1em;
+    
+}

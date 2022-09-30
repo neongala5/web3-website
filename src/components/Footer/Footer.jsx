@@ -4,8 +4,8 @@ import logo from '../../resources/logo.png';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
-import twitterIcon from '../../resources/twitterIcon.png'
-import mediumIcon from '../../resources/mediumIcon.png'
+import twitterIcon from '../../resources/SocialMediaIcons/twitterIcon.png'
+import mediumIcon from '../../resources/SocialMediaIcons/mediumIcon.png'
 
 export default function Footer() {
   return (

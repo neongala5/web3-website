@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Partners.css"
+import "./Team.css"
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -7,7 +7,7 @@ import algorandLogo from '../../resources/PartnerLogos/algorandLogo.png'
 import ethLogo from '../../resources/PartnerLogos/ethLogo.png'
 import polkadotLogo from '../../resources/PartnerLogos/polkadotLogo.png'
 
-export default function Partners() {
+export default function Team() {
     return (
         <Container className='my-5'>
             <Row>
