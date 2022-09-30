@@ -4,14 +4,11 @@
 }
 
 .logoContainer {
-    height: 4em;
 
     border-radius: 10px;
 }
 
 .partnerLogos {
-    margin: 0;
-    height: 5em;
-    margin: 1em;
-    
+    padding: 1em;
+    margin: 0 !important;
 }

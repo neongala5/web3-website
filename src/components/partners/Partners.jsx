@@ -14,7 +14,7 @@ export default function Partners() {
                 <h3 className='header'>Investors &#38; Partners</h3>
             </Row>
             <Row className='my-5'>
-                <Col >
+                <Col>
                     <a href="https://www.algorand.foundation/" target="_blank" rel="noopener noreferrer">
                         <div className='d-flex align-items-center justify-content-center border logoContainer'>
                             <img className="partnerLogos" alt="" src={algorandLogo} />
