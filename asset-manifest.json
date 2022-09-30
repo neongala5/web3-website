@@ -1,15 +1,38 @@
 {
   "files": {
-    "main.css": "/web3-website/static/css/main.4ea24607.css",
-    "main.js": "/web3-website/static/js/main.15a6f033.js",
+    "main.css": "/web3-website/static/css/main.29abed41.css",
+    "main.js": "/web3-website/static/js/main.deb3d171.js",
     "static/js/787.98a9bfbd.chunk.js": "/web3-website/static/js/787.98a9bfbd.chunk.js",
+    "static/media/logo.gif": "/web3-website/static/media/logo.97a391d8e832f6bfca40.gif",
+    "static/media/image1.png": "/web3-website/static/media/image1.729b86a32042a5b8d078.png",
+    "static/media/logo.jpg": "/web3-website/static/media/logo.09a31bceae09dde5932b.jpg",
+    "static/media/logo.png": "/web3-website/static/media/logo.47d3353850d80432b859.png",
+    "static/media/vmLogo.png": "/web3-website/static/media/vmLogo.abf9c6ab463a84d62fa4.png",
+    "static/media/stanfordLogo.png": "/web3-website/static/media/stanfordLogo.0bda805013aba6f03e4b.png",
+    "static/media/image3.png": "/web3-website/static/media/image3.ceb8e87036f9b546209e.png",
+    "static/media/gradient.jpeg": "/web3-website/static/media/gradient.aeb028ec8682f945b2b4.jpeg",
+    "static/media/wisconsinLogo.png": "/web3-website/static/media/wisconsinLogo.a0c55078e217856f13cd.png",
+    "static/media/microsoftLogo.png": "/web3-website/static/media/microsoftLogo.c4387b4bd72056ffd1ec.png",
+    "static/media/algorandLogo.png": "/web3-website/static/media/algorandLogo.e51a12f15748ef9d9d74.png",
+    "static/media/image4.png": "/web3-website/static/media/image4.c1aaf2b7eb8525ff4b43.png",
+    "static/media/washingtonLogo.png": "/web3-website/static/media/washingtonLogo.c382c41fac1968ea1344.png",
+    "static/media/byteDanceLogo.png": "/web3-website/static/media/byteDanceLogo.7c8d377116e7a5155b9e.png",
+    "static/media/cornellLogo.png": "/web3-website/static/media/cornellLogo.6c2e8f01bab4b80e78dc.png",
+    "static/media/paloLogo.png": "/web3-website/static/media/paloLogo.3a5a3f237a6b1ffc1325.png",
+    "static/media/illinoisLogo.png": "/web3-website/static/media/illinoisLogo.ffd1a62e29b191d350ee.png",
+    "static/media/image2.png": "/web3-website/static/media/image2.9f65c05801c82d442919.png",
+    "static/media/jpMorganLogo.png": "/web3-website/static/media/jpMorganLogo.ba4a15f30d2cdfa06fa9.png",
+    "static/media/googleLogo.png": "/web3-website/static/media/googleLogo.d7548f558d339de72821.png",
+    "static/media/pennLogo.png": "/web3-website/static/media/pennLogo.9cb3841621e73b2c7f35.png",
+    "static/media/ibmLogo.png": "/web3-website/static/media/ibmLogo.69848b8ddd6670641e80.png",
+    "static/media/fireEyeLogo.png": "/web3-website/static/media/fireEyeLogo.3e8c25ed4e235f606982.png",
     "index.html": "/web3-website/index.html",
-    "main.4ea24607.css.map": "/web3-website/static/css/main.4ea24607.css.map",
-    "main.15a6f033.js.map": "/web3-website/static/js/main.15a6f033.js.map",
+    "main.29abed41.css.map": "/web3-website/static/css/main.29abed41.css.map",
+    "main.deb3d171.js.map": "/web3-website/static/js/main.deb3d171.js.map",
     "787.98a9bfbd.chunk.js.map": "/web3-website/static/js/787.98a9bfbd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ea24607.css",
-    "static/js/main.15a6f033.js"
+    "static/css/main.29abed41.css",
+    "static/js/main.deb3d171.js"
   ]
 }
