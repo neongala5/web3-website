@@ -15,14 +15,14 @@ export default function Partners() {
             </Row>
             <Row className='my-5'>
                 <Col >
-                    <a href="https://www.algorand.foundation/" target="_blank">
+                    <a href="https://www.algorand.foundation/" target="_blank" rel="noopener noreferrer">
                         <div className='d-flex align-items-center justify-content-center border logoContainer'>
                             <img className="partnerLogos" alt="" src={algorandLogo} />
                         </div>
                     </a>
                 </Col>
                 <Col >
-                    <a href="https://ethz-foundation.ch/en/" target="_blank">
+                    <a href="https://ethz-foundation.ch/en/" target="_blank" rel="noopener noreferrer">
                         <div className='d-flex align-items-center justify-content-center border logoContainer'>
                             <img className="mx-auto partnerLogos" alt="" src={ethLogo} />
                         </div>
@@ -30,7 +30,7 @@ export default function Partners() {
                 </Col>
 
                 <Col >
-                    <a href="https://polkadot.network/" target="_blank">
+                    <a href="https://polkadot.network/" target="_blank" rel="noopener noreferrer">
                         <div className='d-flex align-items-center justify-content-center border logoContainer'>
                             <img className="partnerLogos" alt="" src={polkadotLogo} />
                         </div>
