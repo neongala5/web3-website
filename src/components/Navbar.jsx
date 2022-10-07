@@ -13,7 +13,7 @@ function Nav_bar() {
       <br />
       <Navbar bg="linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,233,255,1) 0%, rgba(0,212,255,1) 100%)" variant="linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,233,255,1) 0%, rgba(0,212,255,1) 100%)">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand>
             <img
               alt=""
               src={logo}
