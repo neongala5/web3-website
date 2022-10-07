@@ -1,19 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   View,
-  SafeAreaView,
-  TouchableOpacity,
-  Text,
   StyleSheet,
 } from "react-native";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import logo from './JumbotronStuff/logo.gif';
 import gradient from './JumbotronStuff/gradient.jpeg';
 import 'image-overlay-react/dist/index.css'
-import Box from '@mui/material/Box';
+
 
 const PositionLayout = () => {
  
