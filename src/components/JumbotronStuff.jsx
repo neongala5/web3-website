@@ -24,7 +24,7 @@ const PositionLayout = () => {
     <Row style={{ marginTop: 0, marginBottom: 0 }}>
         <Card className="text-bottom" text={'black'} style={{ padding: 0 }}>
             <Card.Body>
-        <View style={[styles.box1,backgroundColor: "red"]}/>
+        <View style={[styles.box1,]}/>
         <View style={[styles.box2,]}/>
         <View style={[styles.box3,]}/>
             <Card.Img variant="top" src={gradient} />
