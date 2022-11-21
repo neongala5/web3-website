@@ -34,26 +34,18 @@ function Nav_bar() {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Products</Nav.Link>
             <NavDropdown title="Teams" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">our-mission</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+              team-background
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">investors</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Resource" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Twitter</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+              Telegram
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Email</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
