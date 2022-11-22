@@ -5,10 +5,10 @@ import Col from 'react-bootstrap/Col';
 import Figure from 'react-bootstrap/Figure';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import img1 from './images/image1.png';
-import img2 from './images/image2.png';
-import img3 from './images/image3.png';
-import img4 from './images/image4.png';
+import risksImg from './images/risks.png';
+import dragFileImg from './images/dragFile.png';
+import vulnerabilitiesImg from './images/vulnerabilities.png';
+import detectionImg from './images/detection.png';
 import "./ProductFeatures.css";
 
 export default function ProductFeatures() {
@@ -29,16 +29,16 @@ export default function ProductFeatures() {
             <Row className="my-3" style={{ paddingTop: 24 }}>
                 <Figure className="text-center">
                     <Figure.Image
-                        alt="img1"
-                        src={img1}
+                        alt="risksImg"
+                        src={risksImg}
                     />
                 </Figure>
             </Row>
             <Row className="my-3" style={{ paddingTop: 120 }}>
                 <Col className="text-center"><Figure>
                     <Figure.Image
-                        alt="img2"
-                        src={img2}
+                        alt="dragFileImg"
+                        src={dragFileImg}
                         className="imgsize"
                         
                     />
@@ -49,8 +49,8 @@ export default function ProductFeatures() {
                 </Figure></Col>
                 <Col className="text-center"><Figure>
                     <Figure.Image
-                        alt="img3"
-                        src={img3}
+                        alt="vulnerabilitiesImg"
+                        src={vulnerabilitiesImg}
                         className="imgsize"
                     />
                     <p style={{ marginTop: 40, marginBottom: 10 }}>Complete analysis reports</p>
@@ -60,8 +60,8 @@ export default function ProductFeatures() {
                 </Figure></Col>
                 <Col className="text-center"><Figure>
                     <Figure.Image
-                        alt="img4"
-                        src={img4}
+                        alt="detectionImg"
+                        src={detectionImg}
                         className="imgsize"
                     />
                     <p style={{ marginTop: 40, marginBottom: 10 }}>Complete detection capability</p>
