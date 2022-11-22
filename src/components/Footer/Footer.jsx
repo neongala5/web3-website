@@ -48,7 +48,7 @@ export default function Footer() {
       </Container>
       <div className='copyrightFooter'>
         <span className="copyright">
-          Copyright <span style={{color: 'black'}}>&copy;</span> all rights reserved
+          Copyright <span style={{ color: 'black' }}>&copy;</span> all rights reserved
         </span>
       </div>
     </div>

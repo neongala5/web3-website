@@ -1,19 +1,19 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar';
-import JumbotronStuff from './components/JumbotronStuff';
+import Navbar from './components/Navbar/Navbar';
+import Jumbotron from './components/Jumbotron/Jumbotron';
 import ProductFeatures from './components/ProductFeatures/ProductFeatures';
 import Footer from './components/Footer/Footer';
 import Partners from './components/Partners/Partners';
 import Team from './components/Team/Team';
 
-
 function App() {
-  
   return (
     <div>
-      <Navbar></Navbar>
-	    <JumbotronStuff></JumbotronStuff>
+      <div style={{ backgroundImage: 'linear-gradient(to bottom right, rgba(255,0,0,0),rgba(0,255,255,.2)' }}>
+        <Navbar></Navbar>
+        <Jumbotron></Jumbotron>
+      </div>
       <ProductFeatures></ProductFeatures>
       <Team></Team>
       <Partners></Partners>
@@ -21,5 +21,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
