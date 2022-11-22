@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Jumbotron from './components/Jumbotron';
-import MiddleStuff from './components/MiddleStuff';
+import ProductFeatures from './components/ProductFeatures/ProductFeatures';
 import Footer from './components/Footer/Footer';
 import Partners from './components/Partners/Partners';
 import Team from './components/Team/Team';
@@ -14,7 +14,8 @@ function App() {
         <Navbar></Navbar>
         <Jumbotron></Jumbotron>
       </div>
-      <MiddleStuff></MiddleStuff>
+      <Navbar></Navbar>
+      <ProductFeatures></ProductFeatures>
       <Team></Team>
       <Partners></Partners>
       <Footer></Footer>
