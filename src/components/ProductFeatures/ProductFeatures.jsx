@@ -5,14 +5,15 @@ import Col from 'react-bootstrap/Col';
 import Figure from 'react-bootstrap/Figure';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import img1 from './MiddleStuffImage/image1.png';
-import img2 from './MiddleStuffImage/image2.png';
-import img3 from './MiddleStuffImage/image3.png';
-import img4 from './MiddleStuffImage/image4.png';
+import risksImg from './images/risks.png';
+import dragFileImg from './images/dragFile.png';
+import vulnerabilitiesImg from './images/vulnerabilities.png';
+import detectionImg from './images/detection.png';
+import "./ProductFeatures.css";
 
-export default function MiddleStuff() {
+export default function ProductFeatures() {
     return (
-        <Container className="my-5" >
+        <Container className="my-5" style={{ paddingTop: 136}} >
             <Row className="my-3">
                 <Col>
                     <div>
@@ -25,45 +26,45 @@ export default function MiddleStuff() {
                     </div>
                 </Col>
             </Row>
-            <Row className="my-3">
+            <Row className="my-3" style={{ paddingTop: 24 }}>
                 <Figure className="text-center">
                     <Figure.Image
-                        alt="img1"
-                        src={img1}
+                        alt="risksImg"
+                        src={risksImg}
                     />
                 </Figure>
             </Row>
-            <Row className="my-3">
+            <Row className="my-3" style={{ paddingTop: 120 }}>
                 <Col className="text-center"><Figure>
                     <Figure.Image
-                        alt="img1"
-                        src={img2}
-                        className="border border-dark rounded"
+                        alt="dragFileImg"
+                        src={dragFileImg}
+                        className="imgsize"
                         
                     />
-                    <p>Convenient code upload method</p>
+                    <p style={{ marginTop: 40, marginBottom: 10 }}>Convenient code upload method</p>
                     <Figure.Caption>
                         Upload code file for code analysis
                     </Figure.Caption>
                 </Figure></Col>
                 <Col className="text-center"><Figure>
                     <Figure.Image
-                        alt="img1"
-                        src={img3}
-                        className="border border-dark rounded"
+                        alt="vulnerabilitiesImg"
+                        src={vulnerabilitiesImg}
+                        className="imgsize"
                     />
-                    <p>Complete analysis reports</p>
+                    <p style={{ marginTop: 40, marginBottom: 10 }}>Complete analysis reports</p>
                     <Figure.Caption>
                         Output all detection results, including vulnerability code localization
                     </Figure.Caption>
                 </Figure></Col>
                 <Col className="text-center"><Figure>
                     <Figure.Image
-                        alt="img1"
-                        src={img4}
-                        className="border border-dark rounded"
+                        alt="detectionImg"
+                        src={detectionImg}
+                        className="imgsize"
                     />
-                    <p>Complete detection capability</p>
+                    <p style={{ marginTop: 40, marginBottom: 10 }}>Complete detection capability</p>
                     <Figure.Caption>
                         Cover most of the smart contract SWC vulnerabilities
                     </Figure.Caption>
@@ -77,7 +78,7 @@ export default function MiddleStuff() {
             </Row>
             {/* Card: about us */}
             <Row style={{ marginTop: 220, marginBottom: 220 }}>
-                <Card className="rounded" text={'white'} style={{ backgroundColor: '#1F364E', padding: 50 }}>
+                <Card className="rounded" text={'white'} style={{ backgroundColor: '#182D43', padding: 50 }}>
                     <Card.Body>
                         <Card.Title>About us</Card.Title>
                         <Card.Text>
