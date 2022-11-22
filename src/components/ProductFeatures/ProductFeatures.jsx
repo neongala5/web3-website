@@ -5,13 +5,13 @@ import Col from 'react-bootstrap/Col';
 import Figure from 'react-bootstrap/Figure';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import img1 from './MiddleStuffImage/image1.png';
-import img2 from './MiddleStuffImage/image2.png';
-import img3 from './MiddleStuffImage/image3.png';
-import img4 from './MiddleStuffImage/image4.png';
-import "./Middle.css";
+import img1 from './images/image1.png';
+import img2 from './images/image2.png';
+import img3 from './images/image3.png';
+import img4 from './images/image4.png';
+import "./ProductFeatures.css";
 
-export default function MiddleStuff() {
+export default function ProductFeatures() {
     return (
         <Container className="my-5" style={{ paddingTop: 136}} >
             <Row className="my-3">
