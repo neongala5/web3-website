@@ -21,17 +21,13 @@ import wisconsinLogo from '../../resources/TeamLogos/wisconsinLogo.png'
 export default function Team() {
     return (
         <Container className='my-5'>
-
-
             <Row>
                 <h3 className='header'>Investors &#38; Partners</h3>
             </Row>
             <Row>
                 <h6 style={{ paddingTop: 24, paddingBottom: 24 }}>
-MetaSecureLabs: a team from reputable Research Institutes, Security Vendors and Web2                </h6>
+                    MetaSecureLabs: a team from reputable Research Institutes, Security Vendors and Web2                </h6>
             </Row>
-
-
             <Row className='my-5'>
                 <Col >
                     <a href="https://www.algorand.foundation/" target="_blank" rel="noopener noreferrer">
@@ -69,8 +65,6 @@ MetaSecureLabs: a team from reputable Research Institutes, Security Vendors and 
                     </a>
                 </Col>
             </Row>
-
-
             <Row className='my-5'>
                 <Col >
                     <a href="https://www.algorand.foundation/" target="_blank" rel="noopener noreferrer">
@@ -101,8 +95,6 @@ MetaSecureLabs: a team from reputable Research Institutes, Security Vendors and 
                     </a>
                 </Col>
             </Row>
-
-
             <Row className='my-5'>
                 <Col >
                     <a href="https://www.algorand.foundation/" target="_blank" rel="noopener noreferrer">
@@ -118,7 +110,6 @@ MetaSecureLabs: a team from reputable Research Institutes, Security Vendors and 
                         </div>
                     </a>
                 </Col>
-
                 <Col >
                     <a href="https://polkadot.network/" target="_blank" rel="noopener noreferrer">
                         <div className='d-flex align-items-center justify-content-center border logoContainer'>
@@ -141,8 +132,6 @@ MetaSecureLabs: a team from reputable Research Institutes, Security Vendors and 
                     </a>
                 </Col>
             </Row>
-
-
         </Container>
     )
 }

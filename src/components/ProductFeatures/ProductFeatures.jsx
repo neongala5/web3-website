@@ -13,7 +13,7 @@ import "./ProductFeatures.css";
 
 export default function ProductFeatures() {
     return (
-        <Container className="my-5" style={{ paddingTop: 136}} >
+        <Container className="my-5" style={{ paddingTop: 136 }} >
             <Row className="my-3">
                 <Col>
                     <div>
@@ -40,7 +40,7 @@ export default function ProductFeatures() {
                         alt="dragFileImg"
                         src={dragFileImg}
                         className="imgsize"
-                        
+
                     />
                     <p style={{ marginTop: 40, marginBottom: 10 }}>Convenient code upload method</p>
                     <Figure.Caption>
@@ -72,7 +72,7 @@ export default function ProductFeatures() {
             </Row>
             {/* Form */}
             <Row className="my-3">
-                <Col className="text-center" style={{ marginTop: 100}}>
+                <Col className="text-center" style={{ marginTop: 100 }}>
                     <Button variant="white"><span style={{ fontSize: 30 }}>👉🏻 </span> Click here to apply for a trial <span style={{ fontSize: 30 }}> 👈🏻</span></Button>{' '}
                 </Col>
             </Row>
