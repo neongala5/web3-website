@@ -21,9 +21,9 @@ function Nav_bar() {
               height="30"
               className="d-inline-block align-top"
             />{' '}
-            <span><a style={{ marginLeft: '0.5rem' }}></a></span>
+            <span style={{ marginLeft: '0.5rem' }}></span>
             <span style={{ fontWeight: 'bold' }}>METASECURE</span>
-            <span><a style={{ marginLeft: '35rem' }}></a></span>
+            <span style={{ marginLeft: '35rem' }}></span>
           </Navbar.Brand>
         </Container>
         
