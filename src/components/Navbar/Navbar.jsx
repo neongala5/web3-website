@@ -6,7 +6,7 @@ import logo from './logo.jpg';
 
 function Nav_bar() {
   return (
-    <Navbar bg="linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,233,255,1) 0%, rgba(0,212,255,1) 100%);" expand="lg">
+    <Navbar id="navbar" bg="linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,233,255,1) 0%, rgba(0,212,255,1) 100%);" expand="lg">
       <Container>
         <br />
         <Navbar bg="linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,233,255,1) 0%, rgba(0,212,255,1) 100%)" variant="linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,233,255,1) 0%, rgba(0,212,255,1) 100%)">
@@ -31,19 +31,19 @@ function Nav_bar() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Products</Nav.Link>
-            <NavDropdown title="Teams" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">our-mission</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+            <NavDropdown title="Teams" id="teams-dropdown">
+              <NavDropdown.Item href="#action/3.1" id="our-mission">our-mission</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" id="team-background">
                 team-background
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">investors</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" id="investors">investors</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Resource" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Twitter</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+            <NavDropdown title="Resource" id="resource-dropdown">
+              <NavDropdown.Item href="#action/3.1" id="twitter">Twitter</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" id="telegram">
                 Telegram
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Email</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" id="email">Email</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

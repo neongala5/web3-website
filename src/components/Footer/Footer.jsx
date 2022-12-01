@@ -9,7 +9,7 @@ import mediumIcon from '../../resources/SocialMediaIcons/mediumIcon.png'
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id='footer'>
       <Container className='mainFooter'>
         <Row>
           <Col md={7} className='mt-2'>
@@ -38,15 +38,15 @@ export default function Footer() {
             <hr></hr>
             <form>
               <select name="languages" id="languages" className='footerDropdown'>
-                <option value="English">English</option>
-                <option value="Italian">Italian</option>
-                <option value="French">French</option>
+                <option value="English" id="english">English</option>
+                <option value="Italian" id="italian">Italian</option>
+                <option value="French" id="french">French</option>
               </select>
             </form>
           </Col>
         </Row>
       </Container>
-      <div className='copyrightFooter'>
+      <div className='copyrightFooter' id="copyright">
         <span className="copyright">
           Copyright <span style={{ color: 'black' }}>&copy;</span> all rights reserved
         </span>
