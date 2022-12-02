@@ -13,6 +13,7 @@ import "./ProductFeatures.css";
 
 export default function ProductFeatures() {
     return (
+        // The Product Features Section
         <Container className="my-5" style={{ paddingTop: 136 }} id="productFeatures">
             <Row className="my-3">
                 <Col>

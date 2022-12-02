@@ -7,6 +7,7 @@ import logo from '../../resources/Common/logo.png';
 
 export default function Jumbotron() {
     return (
+        // The Jumbotron Section
         <Container id="jumbotron">
             <Row>
                 <Col xs={6} style={{ margin: 'auto', padding: "0" }}>

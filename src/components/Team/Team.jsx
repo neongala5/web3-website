@@ -20,6 +20,7 @@ import wisconsinLogo from '../../resources/TeamLogos/wisconsinLogo.png'
 
 export default function Team() {
     return (
+        // The Team Section
         <Container className='my-5' id="team">
             <Row>
                 <h3 className='header'>Investors &#38; Partners</h3>

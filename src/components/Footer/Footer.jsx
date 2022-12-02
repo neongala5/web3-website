@@ -9,6 +9,7 @@ import mediumIcon from '../../resources/SocialMediaIcons/mediumIcon.png'
 
 export default function Footer() {
   return (
+    // The Footer Section
     <div className="footer" id='footer'>
       <Container className='mainFooter'>
         <Row>

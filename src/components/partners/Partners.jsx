@@ -9,6 +9,7 @@ import polkadotLogo from '../../resources/PartnerLogos/polkadotLogo.png'
 
 export default function Partners() {
     return (
+        // The Partners Section
         <Container className='my-5' id="partners">
             <Row>
                 <h3 className='header'>Investors &#38; Partners</h3>
