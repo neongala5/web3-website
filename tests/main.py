@@ -25,20 +25,20 @@ class PythonOrgSearch(unittest.TestCase):
 
 
    def test_resource_dropdown_is_in_document(self):
-        edgeResourceDropdown = self.edgeDriver.find_element(By.ID, "")
+        edgeResourceDropdown = self.edgeDriver.find_element(By.ID, "resource-dropdown")
         assert edgeResourceDropdown.is_displayed()
-        chromeResourceDropdown = self.chromeDriver.find_element(By.ID, "")
+        chromeResourceDropdown = self.chromeDriver.find_element(By.ID, "resource-dropdown")
         assert chromeResourceDropdown.is_displayed()
-        fireFoxResourceDropdown = self.fireFoxDriver.find_element(By.ID, "")
+        fireFoxResourceDropdown = self.fireFoxDriver.find_element(By.ID, "resource-dropdown")
         assert fireFoxResourceDropdown.is_displayed()
 
 
    def test_product_features_is_in_document(self):
-        edgeProductFeatures = self.edgeDriver.find_element(By.ID, "")
+        edgeProductFeatures = self.edgeDriver.find_element(By.ID, "productFeatures")
         assert edgeProductFeatures.is_displayed()
-        chromeProductFeatures = self.chromeDriver.find_element(By.ID, "")
+        chromeProductFeatures = self.chromeDriver.find_element(By.ID, "productFeatures")
         assert chromeProductFeatures.is_displayed()
-        fireFoxProductFeatures = self.fireFoxDriver.find_element(By.ID, "")
+        fireFoxProductFeatures = self.fireFoxDriver.find_element(By.ID, "productFeatures")
         assert fireFoxProductFeatures.is_displayed()
 
 
