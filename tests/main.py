@@ -23,21 +23,21 @@ class PythonOrgSearch(unittest.TestCase):
         self.fireFoxDriver.get("https://neongala5.github.io/web3-website/")
 
    def test_navbar_is_in_document(self):
-        edgeNavbar = self.edgeDriver.find_element(By.ID, "")
+        edgeNavbar = self.edgeDriver.find_element(By.ID, "navbar")
         assert edgeNavbar.is_displayed()
-        chromeNavbar = self.chromeDriver.find_element(By.ID, "")
+        chromeNavbar = self.chromeDriver.find_element(By.ID, "navbar")
         assert chromeNavbar.is_displayed()    
-        fireFoxNavbar = self.fireFoxDriver.find_element(By.ID, "")
+        fireFoxNavbar = self.fireFoxDriver.find_element(By.ID, "navbar")
         assert fireFoxNavbar.is_displayed()
 
 
 
    def test_jumbotron_is_in_document(self):
-        edgeJumbotron = self.edgeDriver.find_element(By.ID, "")
+        edgeJumbotron = self.edgeDriver.find_element(By.ID, "jumbotron")
         assert edgeJumbotron.is_displayed()
-        chromeJumbotron = self.chromeDriver.find_element(By.ID, "")
+        chromeJumbotron = self.chromeDriver.find_element(By.ID, "jumbotron")
         assert chromeJumbotron.is_displayed()        
-        fireFoxJumbotron = self.fireFoxDriver.find_element(By.ID, "")
+        fireFoxJumbotron = self.fireFoxDriver.find_element(By.ID, "jumbotron")
         assert fireFoxJumbotron.is_displayed()    
 
    def test_resource_dropdown_is_in_document(self):
