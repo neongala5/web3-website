@@ -58,19 +58,19 @@ class PythonOrgSearch(unittest.TestCase):
         assert fireFoxProductFeatures.is_displayed()
 
    def test_partners_is_in_document(self):
-        edgePartners = self.edgeDriver.find_element(By.ID, "")
+        edgePartners = self.edgeDriver.find_element(By.ID, "partners")
         assert edgePartners.is_displayed()
-        chromePartners = self.chromeDriver.find_element(By.ID, "")
+        chromePartners = self.chromeDriver.find_element(By.ID, "partners")
         assert chromePartners.is_displayed()
-        fireFoxPartners = self.fireFoxDriver.find_element(By.ID, "")
+        fireFoxPartners = self.fireFoxDriver.find_element(By.ID, "partners")
         assert fireFoxPartners.is_displayed()
 
    def test_copyright_is_in_document(self):
-        edgeCopyright = self.edgeDriver.find_element(By.ID, "")
+        edgeCopyright = self.edgeDriver.find_element(By.ID, "copyright")
         assert edgeCopyright.is_displayed()
-        chromeCopyright = self.chromeDriver.find_element(By.ID, "")
+        chromeCopyright = self.chromeDriver.find_element(By.ID, "copyright")
         assert chromeCopyright.is_displayed()
-        fireFoxCopyright = self.fireFoxDriver.find_element(By.ID, "")
+        fireFoxCopyright = self.fireFoxDriver.find_element(By.ID, "copyright")
         assert fireFoxCopyright.is_displayed()
 
 		
