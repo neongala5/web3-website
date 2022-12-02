@@ -26,8 +26,6 @@ function Nav_bar() {
             <span style={{ marginLeft: '35rem' }}></span>
           </Container>
         </Navbar>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Products</Nav.Link>
@@ -46,7 +44,6 @@ function Nav_bar() {
               <NavDropdown.Item href="#action/3.3" id="email">Email</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

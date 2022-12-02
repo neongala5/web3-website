@@ -1,0 +1,13 @@
+1669909911774	geckodriver	INFO	Listening on 127.0.0.1:50326
+1669925189892	geckodriver	INFO	Listening on 127.0.0.1:65478
+1669925468285	geckodriver	INFO	Listening on 127.0.0.1:49294
+1669925471343	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49295" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\PINEAP~1\\AppData\\Local\\Temp\\rust_mozprofileTUdvAw"
+1669925471903	Marionette	INFO	Marionette enabled
+1669925471909	Marionette	INFO	Listening on port 49305
+Read port: 49305
+WebDriver BiDi listening on ws://127.0.0.1:49295
+1669925472017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PINEAP~1\\AppData\\Local\\Temp\\rust_mozprofileTUdvAw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49295/devtools/browser/8ef9815f-e4bf-432e-a87c-f92467cd2121
+1669925474680	Marionette	INFO	Stopped listening on port 49305
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
