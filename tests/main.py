@@ -57,7 +57,23 @@ class PythonOrgSearch(unittest.TestCase):
         fireFoxProductFeatures = self.fireFoxDriver.find_element(By.ID, "productFeatures")
         assert fireFoxProductFeatures.is_displayed()
 
+   def test_partners_is_in_document(self):
+        edgePartners = self.edgeDriver.find_element(By.ID, "")
+        assert edgePartners.is_displayed()
+        chromePartners = self.chromeDriver.find_element(By.ID, "")
+        assert chromePartners.is_displayed()
+        fireFoxPartners = self.fireFoxDriver.find_element(By.ID, "")
+        assert fireFoxPartners.is_displayed()
 
+   def test_copyright_is_in_document(self):
+        edgeCopyright = self.edgeDriver.find_element(By.ID, "")
+        assert edgeCopyright.is_displayed()
+        chromeCopyright = self.chromeDriver.find_element(By.ID, "")
+        assert chromeCopyright.is_displayed()
+        fireFoxCopyright = self.fireFoxDriver.find_element(By.ID, "")
+        assert fireFoxCopyright.is_displayed()
+
+		
    def tearDown(self):
         self.edgeDriver.close()
         self.chromeDriver.close()
