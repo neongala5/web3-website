@@ -22,7 +22,23 @@ class PythonOrgSearch(unittest.TestCase):
         self.fireFoxDriver = webdriver.Firefox(executable_path=r"C:\Program Files (x86)\geckodriver.exe", options=options)
         self.fireFoxDriver.get("https://neongala5.github.io/web3-website/")
 
+   def test_navbar_is_in_document(self):
+        edgeNavbar = self.edgeDriver.find_element(By.ID, "")
+        assert edgeNavbar.is_displayed()
+        chromeNavbar = self.chromeDriver.find_element(By.ID, "")
+        assert chromeNavbar.is_displayed()    
+        fireFoxNavbar = self.fireFoxDriver.find_element(By.ID, "")
+        assert fireFoxNavbar.is_displayed()
 
+
+
+   def test_jumbotron_is_in_document(self):
+        edgeJumbotron = self.edgeDriver.find_element(By.ID, "")
+        assert edgeJumbotron.is_displayed()
+        chromeJumbotron = self.chromeDriver.find_element(By.ID, "")
+        assert chromeJumbotron.is_displayed()        
+        fireFoxJumbotron = self.fireFoxDriver.find_element(By.ID, "")
+        assert fireFoxJumbotron.is_displayed()    
 
    def test_resource_dropdown_is_in_document(self):
         edgeResourceDropdown = self.edgeDriver.find_element(By.ID, "resource-dropdown")
